@@ -4,12 +4,25 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "pxt-magpie-accel": "github:robo-technical-group/pxt-magpie-accel#v1.0.0"
+        "pxt-magpie-accel": "github:robo-technical-group/pxt-magpie-accel#v1.0.0",
+        "core": "file:../core",
+        "lightsensor": "file:../lightsensor",
+        "thermometer": "file:../thermometer",
+        "game": "file:../game",
+        "light": "file:../light",
+        "rotary-encoder": "file:../rotary-encoder"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "state.ts",
+        "vibration.ts",
+        "accelerometer.ts",
+        "lightsensor.ts",
+        "thermometer.ts",
+        "controller.ts",
+        "light.ts",
+        "crank.ts",
+        "controllerimpl.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -22,5 +35,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
