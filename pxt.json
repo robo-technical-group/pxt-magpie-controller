@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-magpie-accel": "github:robo-technical-group/pxt-magpie-accel#v1.0.0"
     },
     "files": [
         "README.md",
